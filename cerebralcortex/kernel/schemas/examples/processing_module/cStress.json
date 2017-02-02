@@ -2,6 +2,8 @@
   "name": "cStress",
   "metadata": {
     "input_parameters": [
+      "window_size",
+      "window_offset",
       "low_level_threshold",
       "high_level_threshold"
     ],
