@@ -21,6 +21,7 @@
 # CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
 from cerebralcortex.data_processor.feature.ecg import ecg_feature_computation
 from cerebralcortex.data_processor.signalprocessing.accelerometer import accelerometer_features
 from cerebralcortex.data_processor.signalprocessing.alignment import timestamp_correct, \
@@ -45,11 +46,7 @@ def cStress(raw_ecg: DataStream,
     :param raw_accel_z:
     """
 
-    # Algorithm Constants
-    # TODO: Once metadata is implemented
-    # ecg_sampling_frequency = rawecg.get_metadata('samplingFrequency')  # 64.0
-    # rip_sampling_frequency = rawrip.get_metadata('samplingFrequency')  # 64.0 / 3.0
-    # accel_sampling_frequency = rawaccelx.get_metadata('samplingFrequency')  # 64.0 / 6.0
+    raw_ecg.metadata.
 
     # TODO: TWH Temporary
     ecg_sampling_frequency = 64.0
