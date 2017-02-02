@@ -2,7 +2,8 @@
   "identifier": 89,
   "user": "a970e186-e960-11e6-bf0e-fe55135034f3",
   "study_list": [
-    54
+    54,
+    57
   ],
   "processing_module": 2,
   "source_ids": [
@@ -23,7 +24,7 @@
       ],
       "execution_context": {
         "device": {
-          "model": "Samsung Galexy S5",
+          "model": "Samsung Galaxy S5",
           "OS": "6.0.0",
           "battery_capacity": "8500mah"
         }

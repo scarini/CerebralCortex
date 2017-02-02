@@ -1,5 +1,6 @@
 {
   "name": "cStress",
+  "description": "Something here",
   "metadata": {
     "input_parameters": [
       "window_size",
@@ -22,6 +23,7 @@
     ],
     "algorithm": {
       "method": "cerebralcortex.data_processor.signalprocessing.ecg.compute_r_peaks",
+      "description": "Something here",
       "authors": [
         "John Doe"
       ],
